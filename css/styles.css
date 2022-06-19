@@ -48,7 +48,7 @@ body {
 }
 
 .site-nav .link {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   text-decoration: none;
 }
 
@@ -77,12 +77,22 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
 }
-
+.header-email:hover,
+.header-email:focus {
+  color: var(--accent-color);
+}
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--accent-color);
+}
 /* Hero */
+
+.hero {
+  background-color: #2f303a;
+}
 
 .hero-title {
   color: var(--primary-white-color);
-  background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -144,6 +154,7 @@ body {
 .address {
   color: var(--primary-white-color);
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -160,6 +171,15 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.footer-email:hover,
+.footer-email:focus {
+  color: var(--accent-color);
+}
+.footer-phone:hover,
+.footer-phone:focus {
+  color: var(--accent-color);
+}
+
 .footerlogo-accent {
   color: var(--primary-white-color);
   text-decoration: none;
@@ -185,6 +205,7 @@ body {
   letter-spacing: 0.03em;
 }
 .project-title {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
